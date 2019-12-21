@@ -22,10 +22,11 @@ void test(){
         in=cm=0;
         break;
     }
-    cout<<in<<"in = "<<cm<<"cm\n";
+    cout<<in<<"inch = "<<cm<<"cm\n";
 }
 int main(){
     test();
     cout<<"Hello world!"<<endl;
+    
     return 0;
 }
