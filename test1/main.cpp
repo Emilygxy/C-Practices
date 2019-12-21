@@ -1,10 +1,13 @@
 #include <iostream>
 using namespace std;
 
+/*
+实现从英寸到厘米和从厘米到英寸的转换
+*/
 void test(){
     const float factor=2.54;
     float x,in,cm;
-    char ch=0;
+    char ch=0,chh=0;
     cout<<"Enter length:";
     cin>>x;
     cin>>ch;
@@ -22,7 +25,7 @@ void test(){
         in=cm=0;
         break;
     }
-    cout<<in<<"inch = "<<cm<<"cm\n";
+    cout<<in<<" inch = "<<cm<<" cm\n";
 }
 int main(){
     test();
