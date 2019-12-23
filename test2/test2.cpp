@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+void printShuiXian(){
     int i,j,k;
     int n=0;
     for(n=100;n<1000;n++){
@@ -16,6 +16,11 @@ int main(){
             cout<<n<<"是水仙花数"<<endl;
         }
     }
+
+    return;
+}
+int main(){
+    printShuiXian();
     //cout<<"Hello world!"<<endl;
 
     return 0;
